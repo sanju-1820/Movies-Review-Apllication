@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="index.html">Movies Site</a>
+    </div>
+
+    
+    <h1> Reviews for: </h1>
+    <h3 id="title"> Movie Title</h3>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+            New Review
+            <p><strong>Review: </strong>
+              <input type="text" id="new_review" value=" ">
+            </p>
+            <p><strong>User: </strong>
+              <input type="text" id="new_user" value=" ">
+            </p>
+            <p><a href="#" onclick="saveReview('new_review', 'new_user')">🖨️</a> 
+            </p>
+        </div>
+      </div>
+    <div>
+
+    <section id="section">
+      
+    </section>
+  </body>
+
+  <script src="movie.js"></script>
+</html>
